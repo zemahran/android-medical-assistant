@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="285dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_cards">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:gravity="start"
+        android:typeface="sans"
+        android:text="You may be suffering from one of the following conditions:"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/male1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textSize="18sp"
+        android:typeface="sans"
+        android:clickable="true"
+        android:focusable="true"
+        android:textAllCaps="false"
+        android:background="@drawable/top_rounded_buttons"
+        android:text="Male"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/female"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/bottom_rounded_buttons"
+        android:text="Female"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:typeface="sans"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/male1"
+        android:textAllCaps="false"/>
+
+
+</android.support.constraint.ConstraintLayout>

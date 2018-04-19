@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounded_cards"
+        android:gravity="start"
+        android:padding="12dp"
+        android:text="Do you have chronic abdominal pain?"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2">
+
+        <Button
+            android:id="@+id/cardbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/rounded_buttons"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Yes"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:typeface="sans"
+            app:layout_constraintBottom_toBottomOf="@id/buttons_layout"
+            app:layout_constraintStart_toStartOf="@id/buttons_layout"
+            app:layout_constraintTop_toTopOf="@id/buttons_layout" />
+
+        <Button
+            android:id="@+id/cardbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/rounded_buttons"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:typeface="sans"
+            app:layout_constraintStart_toEndOf="@id/cardbtn1"
+            app:layout_constraintTop_toTopOf="@id/buttons_layout"
+            app:layout_constraintBottom_toBottomOf="@id/buttons_layout"/>
+
+        <Button
+            android:id="@+id/cardbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/rounded_buttons"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            android:text="Don't know"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:typeface="sans"
+            app:layout_constraintBottom_toBottomOf="@id/buttons_layout"
+            app:layout_constraintEnd_toEndOf="@id/buttons_layout"
+            app:layout_constraintStart_toEndOf="@id/cardbtn2"
+            app:layout_constraintTop_toTopOf="@id/buttons_layout" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
