@@ -12,7 +12,8 @@ an API for patient preliminary medical diagnosis. It utilizes an AI inference en
 and provide a list of likely conditions and relevant observations. The engine makes it easy for the 
 patient to interact with the app in natural unprocessed wording.
 
-## Demo
-<a href="https://drive.google.com/file/d/18n7HyNrR5_rsMYx-XZWqcsIBG2d0cIbr/view">
-<img src="https://github.com/zemahran/Symptomate/blob/master/infermedica.png" 
-alt="IMAGE ALT TEXT HERE" width="360" height="360" border="10" /></a>
+The demo is **[here](https://drive.google.com/file/d/18n7HyNrR5_rsMYx-XZWqcsIBG2d0cIbr/view)**.
+
+### Credits
+
+Thanks to my friend **Saleh El Sherif** for helping me out.
