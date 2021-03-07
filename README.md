@@ -15,6 +15,8 @@ patient to interact with the app in natural unprocessed wording.
 
 The demo is **[here](https://drive.google.com/file/d/18n7HyNrR5_rsMYx-XZWqcsIBG2d0cIbr/view)**.
 
+**Update**: some built-in functions are now deprecated.
+
 ### Credits
 
 Thanks to my friend **Saleh El Sherif** for helping me out.
